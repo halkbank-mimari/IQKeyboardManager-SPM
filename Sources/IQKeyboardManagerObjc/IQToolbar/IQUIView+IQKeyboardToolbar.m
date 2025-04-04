@@ -381,6 +381,8 @@
         {
             toolbar.titleBarButton.customView.frame = CGRectZero;
         }
+      
+      if (titleText != nil)
         [items addObject:toolbar.titleBarButton];
         
         //Flexible space
